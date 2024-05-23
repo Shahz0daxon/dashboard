@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+.loft-mebel-menu {
+
+    width: 100%;
+    height: 38px;
+}
+
+.menu-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 80px;
+
+}
+
+.right-text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.loft-mebel-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    float: left;
+    margin-right: 80px;
+}
+
+.left-text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.card {
+    width: 263px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.btn {
+    padding: 7px 10px;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+}
+
+.search-mebel-icon {
+    width: 112.96px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.search-menu {
+    display: flex;
+    margin-left: 60px;
+    gap: 20px;
+    /* 
+    border: 1px solid rgb(230, 230, 230);
+    width: 839px;
+    height: 50px; */
+}
+
+.pusk {
+    width: 41px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.search-icon {
+    width: 14px;
+    height: 14px;
+    margin-top: 20px;
+}
+
+.right-pg-2 {
+    width: 19.83px;
+    height: 17px;
+}
+
+.right-pg-1 {
+    width: 19.83px;
+    height: 17px;
+}
+
+.right-pg-3 {
+    width: 19.83px;
+    height: 17px;
+}
+
+.img-right-pg {
+    display: flex;
+    gap: 20px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.telefon {
+    width: 138px;
+    height: 17px;
+}
+
+.dostavka {
+    width: 29px;
+    height: 16.92px;
+}
+
+.loft-page {
+    background-image: url(./img/1785\ 1.png);
+    background-repeat: no-repeat;
+    height: calc(100vh - 90px);
+    background-size: cover;
+    background-position: center;
+}
+
+.loft-page-title {
+    color: rgb(60, 60, 60);
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 105.3%;
+    letter-spacing: 2%;
+    text-align: left;
+    text-transform: uppercase;
+    /* loft мебель */
+    position: absolute;
+    width: 210px;
+    height: 105px;
+    left: 260px;
+    right: -189px;
+    top: 328px;
+    bottom: -289px;
+}
+
+.loft-page-text {
+    /* Современная и удобная мебель в Анапе */
+    position: absolute;
+    width: 280px;
+    height: 23px;
+    left: 261px;
+    right: -260px;
+    top: 449px;
+    bottom: -328px;
+    /* Современная и удобная мебель в Анапе */
+    position: absolute;
+    width: 280px;
+    height: 23px;
+    left: 261px;
+    right: -260px;
+    top: 449px;
+    bottom: -328px;
+}
+
+.loft-page-text-nomer-1 {
+    /* СМОТРЕТЬ КАТАЛОГ */
+    position: absolute;
+    width: 113px;
+    height: 17px;
+    left: 285px;
+    text-align: center;
+    right: -235px;
+    top: 506px;
+    bottom: -478px;
+    color: rgb(65, 65, 65);
+    font-family: Roboto Condensed;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 140.8%;
+    letter-spacing: 4%;
+    text-align: left;
+    /* menu-shadow */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    background: rgb(255, 255, 255);
+    /* Rectangle 81 */
+    position: absolute;
+    width: 163px;
+    height: 45px;
+    left: 260px;
+    right: -260px;
+    top: 492px;
+    bottom: -492px;
+}
+
+
+.row {
+    margin-top: 200px;
+}
+
+
+.nv-title {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-right: 1100px;
+    margin-top: 100px;
+}
+
+.right-text {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 126.69%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 1100px;
+
+}
+
+.navigat {
+    margin-top: 100px;
+}
+
+.nv-right-text {
+    margin-top: 20px;
+}
